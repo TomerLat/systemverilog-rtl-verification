@@ -1,9 +1,9 @@
 # SR Flip-Flop
 
 ## Behavior
-- `set=1, rst=0` → Q = 1 (Set)
-- `set=0, rst=1` → Q = 0 (Reset)
 - `set=0, rst=0` → Hold previous value
+- `set=0, rst=1` → Q = 0 (Reset)
+- `set=1, rst=0` → Q = 1 (Set)
 - `set=1, rst=1` → Invalid (Q = x in simulation)
 
 ## Notes
