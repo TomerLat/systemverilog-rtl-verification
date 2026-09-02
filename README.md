@@ -12,6 +12,16 @@ I focus on writing clean RTL code together with structured testbenches (Generato
 - **T Flip-Flop**
 - **SR Flip-Flop**
 - **JK Flip-Flop**
+### FIFO
+### UART
+### SPI
+### I2C
+### Bus Protocols
+- AXI
+- AHB
+- ACE
+- APB
+- Whishone Memory
 
 For each design you will find:
 - RTL code
