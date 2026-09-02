@@ -46,7 +46,9 @@ Synchronous FIFO, depth 16, 8-bit data. Write/read pointers address the RAM; a 5
 ---
 
 ## Repository Structure
-├── rtl/                  # Design files (.sv)
-├── tb/                   # Testbench files
-├── docs/                 # Waveforms, schematics, notes
-└── README.md
+| Path | Contents |
+|---|---|
+| `rtl/` | Design files (`.sv`) |
+| `tb/` | Testbench files |
+| `docs/` | Waveforms, schematics, notes |
+| `README.md` | This file |
