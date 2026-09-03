@@ -25,6 +25,9 @@ For each finished design you will find:
 
 Synchronous FIFO, depth 16, 8-bit data. Write/read pointers address the RAM; a 5-bit occupancy counter generates `empty` / `full`.
 
+### Serial Protocols
+
+* SPI
 ---
 
 ## Next
@@ -32,7 +35,6 @@ Synchronous FIFO, depth 16, 8-bit data. Write/read pointers address the RAM; a 5
 ### Serial protocols
 
 * UART
-* SPI
 * I2C
 
 ### Bus protocols
