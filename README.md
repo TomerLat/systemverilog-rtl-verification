@@ -30,6 +30,7 @@ Synchronous FIFO, depth 16, 8-bit data. Write/read pointers address the RAM; a 5
 * SPI
 * UART
 * I2C
+* Wishbone
 
 ### Bus protocols
 
@@ -41,8 +42,8 @@ Synchronous FIFO, depth 16, 8-bit data. Write/read pointers address the RAM; a 5
 ### Bus protocols
 
 * AHB
-* ACE
-* Wishbone
+
+
 
 ---
 
