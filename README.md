@@ -34,13 +34,13 @@ Synchronous FIFO, depth 16, 8-bit data. Write/read pointers address the RAM; a 5
 ### Bus protocols
 
 * APB
+* AXI
 
 ## Next
 
 ### Bus protocols
 
 * AHB
-* AXI
 * ACE
 * Wishbone
 
