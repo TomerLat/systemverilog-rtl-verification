@@ -30,13 +30,15 @@ Synchronous FIFO, depth 16, 8-bit data. Write/read pointers address the RAM; a 5
 * SPI
 * UART
 * I2C
----
+
+### Bus protocols
+
+* APB
 
 ## Next
 
 ### Bus protocols
 
-* APB
 * AHB
 * AXI
 * ACE
