@@ -37,10 +37,10 @@ Notes: [docs/notes.md](docs/notes.md)
 
 ### Bus protocols
 
-* **APB** — [rtl/Bus Protocols](rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/APB](docs/APB)
-* **AXI** — [rtl/Bus Protocols](rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/AXI](docs/AXI)
-* **AHB** — [rtl/Bus Protocols](rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/AHB](docs/AHB)
-* **Wishbone** — [rtl/Bus Protocols](rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/Wishbone](docs/Wishbone)
+* **APB** — [rtl/Bus Protocols] (rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/APB](docs/APB)
+* **AXI** — [rtl/Bus Protocols] (rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/AXI](docs/AXI)
+* **AHB** — [rtl/Bus Protocols] (rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/AHB](docs/AHB)
+* **Wishbone** — [rtl/Bus Protocols] (rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/Wishbone](docs/Wishbone)
 
 ---
 
@@ -59,9 +59,3 @@ Notes: [docs/notes.md](docs/notes.md)
 │   ├── SPI/, UART/, I2C/ APB/, AXI/, AHB/, Wishbone/, JK_FF/, SR_FF/, FIFO/, 
 └── README.md
 ```
-
-FIFO RTL / TB sit with the serial or top-level files if they were not moved into one of the three folders.
-
----
-
-Same TB pattern on every lab: Generator → Driver → Monitor → Scoreboard, with `transaction.copy()` on mailbox `put`.
