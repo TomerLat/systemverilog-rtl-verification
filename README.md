@@ -19,15 +19,15 @@ For each finished design you will find:
 
 ### Flip-Flops
 
-* **T Flip-Flop** — [rtl/FlipFlops ](rtl/FlipFlops ) · [tb/FlipFlops](tb/FlipFlops)
-* **SR Flip-Flop** — [rtl/FlipFlops](rtl/FlipFlops) · [tb/FlipFlops](tb/FlipFlops)
-* **JK Flip-Flop** — [rtl/FlipFlops](rtl/FlipFlops) · [tb/FlipFlops](tb/FlipFlops)
+* **T Flip-Flop** — [rtl/FlipFlops](rtl/FlipFlops) · [tb/FlipFlops](tb/FlipFlops)
+* **SR Flip-Flop** — [rtl/FlipFlops](rtl/FlipFlops) · [tb/FlipFlops](tb/FlipFlops) · [docs/SR_FF](docs/SR_FF)
+* **JK Flip-Flop** — [rtl/FlipFlops](rtl/FlipFlops) · [tb/FlipFlops](tb/FlipFlops) · [docs/JK_FF](docs/JK_FF)
 
 ### FIFO
 
 Synchronous FIFO, depth 16, 8-bit data. Write/read pointers address the RAM; a 5-bit occupancy counter generates `empty` / `full`.
 
-Notes: [docs/notes.md](docs/notes.md)
+[rtl/FlipFlops](rtl/FlipFlops) · [tb/FlipFlops](tb/FlipFlops) · [docs/FIFO](docs/FIFO)
 
 ### Serial protocols
 
@@ -40,7 +40,7 @@ Notes: [docs/notes.md](docs/notes.md)
 * **APB** — [rtl/Bus Protocols](rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/APB](docs/APB)
 * **AXI** — [rtl/Bus Protocols](rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/AXI](docs/AXI)
 * **AHB** — [rtl/Bus Protocols](rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/AHB](docs/AHB)
-* **Wishbone** — [rtl/Bus Protocols] (rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/Wishbone](docs/Wishbone)
+* **Wishbone** — [rtl/Bus Protocols](rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/Wishbone](docs/Wishbone)
 
 ---
 
@@ -48,14 +48,16 @@ Notes: [docs/notes.md](docs/notes.md)
 
 ```
 ├── rtl/
-│   ├── Flip Flops/          # T, SR, JK, FIFO
+│   ├── FlipFlops/           # T, SR, JK, FIFO
 │   ├── Serial Protocols/    # SPI, UART, I2C
 │   └── Bus Protocols/       # APB, AXI, AHB, Wishbone
 ├── tb/
-│   ├── Flip Flops/          # T, SR, JK, FIFO
+│   ├── FlipFlops/           # T, SR, JK, FIFO
 │   ├── Serial Protocols/    # SPI, UART, I2C
-│   └── Bus Protocols/        # APB, AXI, AHB, Wishbone
-├── docs/                    # notes, waveforms, schematics
-│   ├── SPI/, UART/, I2C/ APB/, AXI/, AHB/, Wishbone/, JK_FF/, SR_FF/, FIFO/, 
+│   └── Bus Protocols/       # APB, AXI, AHB, Wishbone
+├── docs/
+│   ├── JK_FF/, SR_FF/, FIFO/
+│   ├── SPI/, UART/, I2C/
+│   └── APB/, AXI/, AHB/, Wishbone/
 └── README.md
 ```
