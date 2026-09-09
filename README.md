@@ -48,17 +48,15 @@ Notes: [docs/notes.md](docs/notes.md)
 
 ```
 ├── rtl/
-│   ├── Flip Flops/          # T, SR, JK
+│   ├── Flip Flops/          # T, SR, JK, FIFO
 │   ├── Serial Protocols/    # SPI, UART, I2C
 │   └── Bus Protocols/       # APB, AXI, AHB, Wishbone
 ├── tb/
-│   ├── Flip Flops/
-│   ├── Serial Protocols/
-│   └── Bus Protocols/
+│   ├── Flip Flops/          # T, SR, JK, FIFO
+│   ├── Serial Protocols/    # SPI, UART, I2C
+│   └── Bus Protocols/        # APB, AXI, AHB, Wishbone
 ├── docs/                    # notes, waveforms, schematics
-│   ├── SPI/, UART/, I2C/
-│   ├── APB/, AXI/, AHB/, Wishbone/
-│   └── notes.md             # FIFO
+│   ├── SPI/, UART/, I2C/ APB/, AXI/, AHB/, Wishbone/, JK_FF/, SR_FF/, FIFO/, 
 └── README.md
 ```
 
