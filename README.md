@@ -19,9 +19,11 @@ For each finished design you will find:
 
 ### Flip-Flops
 
-* **T Flip-Flop** — [rtl/FlipFlops](rtl/FlipFlops) · [tb/Flip Flops](tb/Flip%20Flops)
-* **SR Flip-Flop** — [rtl/FlipFlops](rtl/FlipFlops) · [tb/Flip Flops](tb/Flip%20Flops) · [docs/SR_FF](docs/SR_FF)
-* **JK Flip-Flop** — [rtl/FlipFlops](rtl/FlipFlops) · [tb/Flip Flops](tb/Flip%20Flops) · [docs/JK_FF](docs/JK_FF)
+* **T Flip-Flop** — [rtl/FlipFlops](rtl/FlipFlops) · [tb/Flip Flops](tb/Flip%20Flops) · [docs/t_ff](docs/t_ff)
+* **SR Flip-Flop** — [rtl/FlipFlops](rtl/FlipFlops) · [tb/Flip Flops](tb/Flip%20Flops) · [docs/sr_ff](docs/sr_ff)
+* **JK Flip-Flop** — [rtl/FlipFlops](rtl/FlipFlops) · [tb/Flip Flops](tb/Flip%20Flops) · [docs/jk_ff](docs/jk_ff)
+
+Group folder: [docs/Flip Flops](docs/Flip%20Flops)
 
 ### FIFO
 
@@ -37,10 +39,10 @@ Synchronous FIFO, depth 16, 8-bit data. Write/read pointers address the RAM; a 5
 
 ### Bus protocols
 
-* **APB** — [rtl/Bus Protocols](rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/APB](docs/APB)
-* **AXI** — [rtl/Bus Protocols](rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/AXI](docs/AXI)
-* **AHB** — [rtl/Bus Protocols](rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/AHB](docs/AHB)
-* **Wishbone** — [rtl/Bus Protocols](rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/Wishbone](docs/Wishbone)
+* **APB** — [rtl/Bus Protocols](rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/Bus Protocols/APB](docs/Bus%20Protocols/APB)
+* **AXI** — [rtl/Bus Protocols](rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/Bus Protocols/AXI](docs/Bus%20Protocols/AXI)
+* **AHB** — [rtl/Bus Protocols](rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/Bus Protocols/AHB](docs/Bus%20Protocols/AHB)
+* **Wishbone** — [rtl/Bus Protocols](rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/Bus Protocols/Whisbone](docs/Bus%20Protocols/Whisbone)
 
 ---
 
@@ -56,8 +58,8 @@ Synchronous FIFO, depth 16, 8-bit data. Write/read pointers address the RAM; a 5
 │   ├── Serial Protocols/    # SPI, UART, I2C
 │   └── Bus Protocols/       # APB, AXI, AHB, Wishbone
 ├── docs/
-│   ├── JK_FF/, SR_FF/, FIFO/
+│   ├── Flip Flops/, t_ff/, sr_ff/, jk_ff/, FIFO/
 │   ├── SPI/, UART/, I2C/
-│   └── APB/, AXI/, AHB/, Wishbone/
+│   └── Bus Protocols/       # APB, AXI, AHB, Whisbone
 └── README.md
 ```
