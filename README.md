@@ -19,15 +19,15 @@ For each finished design you will find:
 
 ### Flip-Flops
 
-* **T Flip-Flop** — [rtl/FlipFlops](rtl/FlipFlops) · [tb/FlipFlops](tb/FlipFlops)
-* **SR Flip-Flop** — [rtl/FlipFlops](rtl/FlipFlops) · [tb/FlipFlops](tb/FlipFlops) · [docs/SR_FF](docs/SR_FF)
-* **JK Flip-Flop** — [rtl/FlipFlops](rtl/FlipFlops) · [tb/FlipFlops](tb/FlipFlops) · [docs/JK_FF](docs/JK_FF)
+* **T Flip-Flop** — [rtl/FlipFlops](rtl/    FlipFlops) · [tb/FlipFlops](tb/FlipFlops)
+* **SR Flip-Flop** — [rtl/FlipFlops](rtl/    FlipFlops) · [tb/FlipFlops](tb/FlipFlops) · [docs/SR_FF](docs/SR_FF)
+* **JK Flip-Flop** — [rtl/FlipFlops](rtl/    FlipFlops) · [tb/FlipFlops](tb/FlipFlops) · [docs/JK_FF](docs/JK_FF)
 
 ### FIFO
 
 Synchronous FIFO, depth 16, 8-bit data. Write/read pointers address the RAM; a 5-bit occupancy counter generates `empty` / `full`.
 
-[rtl/FlipFlops](rtl/FlipFlops) · [tb/FlipFlops](tb/FlipFlops) · [docs/FIFO](docs/FIFO)
+[rtl/FlipFlops](rtl/    FlipFlops) · [tb/FlipFlops](tb/FlipFlops) · [docs/FIFO](docs/FIFO)
 
 ### Serial protocols
 
