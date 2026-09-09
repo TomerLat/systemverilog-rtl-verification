@@ -19,9 +19,9 @@ For each finished design you will find:
 
 ### Flip-Flops
 
-* **T Flip-Flop** — [rtl/Flip Flops](rtl/Flip%20Flops) · [tb/Flip Flops](tb/Flip%20Flops)
-* **SR Flip-Flop** — [rtl/Flip Flops](rtl/Flip%20Flops) · [tb/Flip Flops](tb/Flip%20Flops)
-* **JK Flip-Flop** — [rtl/Flip Flops](rtl/Flip%20Flops) · [tb/Flip Flops](tb/Flip%20Flops)
+* **T Flip-Flop** — [rtl/FlipFlops](rtl/FlipFlops) · [tb/FlipFlops](tb/FlipFlops)
+* **SR Flip-Flop** — [rtl/FlipFlops](rtl/FlipFlops) · [tb/FlipFlops](tb/FlipFlops)
+* **JK Flip-Flop** — [rtl/FlipFlops](rtl/FlipFlops) · [tb/FlipFlops](tb/FlipFlops)
 
 ### FIFO
 
