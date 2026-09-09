@@ -37,9 +37,9 @@ Notes: [docs/notes.md](docs/notes.md)
 
 ### Bus protocols
 
-* **APB** — [rtl/Bus Protocols] (rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/APB](docs/APB)
-* **AXI** — [rtl/Bus Protocols] (rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/AXI](docs/AXI)
-* **AHB** — [rtl/Bus Protocols] (rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/AHB](docs/AHB)
+* **APB** — [rtl/Bus Protocols](rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/APB](docs/APB)
+* **AXI** — [rtl/Bus Protocols](rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/AXI](docs/AXI)
+* **AHB** — [rtl/Bus Protocols](rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/AHB](docs/AHB)
 * **Wishbone** — [rtl/Bus Protocols] (rtl/Bus%20Protocols) · [tb/Bus Protocols](tb/Bus%20Protocols) · [docs/Wishbone](docs/Wishbone)
 
 ---
